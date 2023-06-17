@@ -1,0 +1,18 @@
+.slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slidetext{
+    width: 75%;
+    margin-bottom: 8%;
+}
+.slidetext1{
+    font-size: 23px;
+    margin-top: 5%;
+    text-align: center;
+}
+.slidetext2{
+    font-size: small;
+    text-align: center;
+}

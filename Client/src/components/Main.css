@@ -1,0 +1,105 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+}
+.logo p{
+	padding: 10px;
+	font-size: 30px;
+	font-family:'Times New Roman', Times, serif
+}
+.logo p b{
+	color: #5f6368;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo img{
+	height: 40px;
+}
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: red;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.lobby{
+	display: flex ;
+}
+.lobby_left {
+	height: 100%;
+	width: 40%;
+	padding: 8% 5% 5% 5%;
+}
+.lobby_left div:first-child{
+	font-size: 45px;
+	font-weight:500;
+}
+.lobby_left_div2{
+	width: 70%;
+	font-size: 18px;
+	color: #5f6368;
+	padding-top: 3%;
+	padding-bottom: 10%;
+}
+.lobby_left_div3{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.lobby_left_div3_text{
+	margin-left: 50px;
+}
+.learn_more{
+	margin-top: 5%;
+	padding-top: 5%;
+	border-top: 1px solid rgb(210, 207, 207);
+	font-size: large;
+	color: #5f6368;
+}
+.learn_more a{
+	text-decoration: none;
+	color: #1d75e8;
+}
+.hidden{
+	width: 65px;
+	display: hidden;
+}
+.MuiButton-contained {
+    text-transform:capitalize !important;
+  }
+.MuiButton-text{
+	text-transform:capitalize !important;
+}
+.lobby_right{
+	height: 100%;
+	width: 30%;
+	padding: 5% 3% 5% 5%;
+
+}
+.userDetail{
+	display: flex;
+	align-items: center;
+}
+.date_time{
+	width: 45%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #5f6368;
+	font-size: large;
+	font-family: 'Times New Roman', Times, serif;
+}
